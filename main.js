@@ -6,7 +6,7 @@ $(document).ready(function(){
 
   // redirect_uri of the project
 
-  var redirect_uri = "http://127.0.0.1:5500/redirect.html";
+  var redirect_uri = "https://kind-tesla-bc4a3a.netlify.app/redirect.html";
 
   // scope of the project
 
