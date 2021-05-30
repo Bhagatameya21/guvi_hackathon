@@ -3,7 +3,7 @@ $(document).ready(function(){
  
   const urlParams = new URLSearchParams(window.location.search);
   const code = urlParams.get('code');
-  const redirect_uri = "http://127.0.0.1:5500/redirect.html" // redirect_uri;
+  const redirect_uri = "https://kind-tesla-bc4a3a.netlify.app/redirect.html" // redirect_uri;
   const client_secret = "PxnJ02FY49rxuT4Uvnly6AKt"; // client secret
   const scope = "https://www.googleapis.com/auth/youtube";
   var client_id = "249743537309-kbs3vvok4j0dchbnhbfet943rk00lqbf.apps.googleusercontent.com";// client id
@@ -80,7 +80,7 @@ $(document).ready(function(){
          localStorage.setItem("refreshToken",resultData.refreshToken);
          localStorage.setItem("expires_in",resultData.expires_in);
          //window.history.pushState({}, document.title, "/GitLoginApp/" + "upload.html");
-         window.history.replaceState({}, document.title, "http://127.0.0.1:5500/redirect.html");
+         window.history.replaceState({}, document.title, "https://kind-tesla-bc4a3a.netlify.app/redirect.html");
          
          
          
